@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0494429f-62e1-4765-a968-16eea9992671" name="Changes" comment="dbcontext">
+    <list default="true" id="0494429f-62e1-4765-a968-16eea9992671" name="Changes" comment="adden tables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Carousel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Carousel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Doctor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Doctor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/HealthActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/HealthActions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Patient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Patient.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Registration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Result.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Role.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/UserAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/UserAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalSystem.Infrastructure/HospitalSystem.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Infrastructure/HospitalSystem.Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,6 +118,15 @@
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Atributy/Atributy/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HospitalSystem.Domain/Entities/Carousel.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HospitalSystem.Domain/Entities/Doctor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -142,6 +143,10 @@
     <setting file="file://$PROJECT_DIR$/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/martin.bercik/SWI/Tretak/AP5PW/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/HospitalSystem/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HospitalSystem/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HospitalSystem/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HospitalSystem/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HospitalSystem/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
   <component name="KubernetesApiProvider"><![CDATA[{
@@ -186,7 +191,7 @@
       <updated>1729753174401</updated>
       <workItem from="1729753174857" duration="1614000" />
       <workItem from="1729764092333" duration="1874000" />
-      <workItem from="1730127797198" duration="8287000" />
+      <workItem from="1730127797198" duration="10821000" />
     </task>
     <task id="LOCAL-00001" summary="created libraries">
       <option name="closed" value="true" />
@@ -252,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730136616374</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adden tables">
+      <option name="closed" value="true" />
+      <created>1730137912849</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730137912850</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +282,7 @@
     <MESSAGE value="install entity framework core" />
     <MESSAGE value="changed" />
     <MESSAGE value="dbcontext" />
-    <option name="LAST_COMMIT_MESSAGE" value="dbcontext" />
+    <MESSAGE value="adden tables" />
+    <option name="LAST_COMMIT_MESSAGE" value="adden tables" />
   </component>
 </project>

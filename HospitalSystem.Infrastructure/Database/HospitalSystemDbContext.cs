@@ -8,9 +8,8 @@ namespace HospitalSystem.Infrastructure.Database
     {
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Carousel> Carousels { get; set; }
-
-        public HospitalSystemDbContext(DbContextOptions<HospitalSystemDbContext> options)
-            : base(options)
+        
+        public HospitalSystemDbContext(DbContextOptions<HospitalSystemDbContext> options) : base(options)
         {
         }
     }
