@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalSystem.Domain.Entities
 {
+    [Table(nameof(Person))]
     public class Person : Entity<int>
     {
         [Required]

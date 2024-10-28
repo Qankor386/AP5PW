@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalSystem.Domain.Entities
 {
+    [Table(nameof(HealthAction))]
     public class HealthAction : Entity<int>
     {
         public required string ProcedureName { get; set; }
@@ -12,6 +13,7 @@ namespace HospitalSystem.Domain.Entities
         public required virtual ICollection<Vaccination> Vaccinations { get; set; }
     }
 
+    [Table(nameof(BloodTest))]
     public class BloodTest : Entity<int>
     {
         public required string BloodType { get; set; }
@@ -22,6 +24,7 @@ namespace HospitalSystem.Domain.Entities
         public required HealthAction HealthAction { get; set; }
     }
 
+    [Table(nameof(Vaccination))]
     public class Vaccination : Entity<int>
     {
         public required string VaccinationType { get; set; }

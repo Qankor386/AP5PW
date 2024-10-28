@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalSystem.Domain.Entities
 {
+    [Table(nameof(Result))]
     public class Result : Entity<int>
     {
         public DateTime CreatedDate { get; set; }
