@@ -9,8 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3b65ffd-7cac-4ea5-9957-bab978fdeeb1" name="Changes" comment="new repo">
+      <change afterPath="$PROJECT_DIR$/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem/HospitalSystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem/HospitalSystem.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Carousel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Carousel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Doctor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Doctor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/HealthActions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/HealthActions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Patient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Patient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Registration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Registration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Result.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Role.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Role.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/UserAccount.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/UserAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalSystem/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,18 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Qankor386"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Qankor386&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Qankor386/AP5PW.git",
-    "accountId": "f4489c3a-8867-464b-93ba-975680326d00"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Qankor386/AP5PW.git&quot;,
+    &quot;accountId&quot;: &quot;f4489c3a-8867-464b-93ba-975680326d00&quot;
   }
-}]]></component>
+}</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -42,20 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.HospitalSystem: https.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.HospitalSystem: http">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.HospitalSystem: https">
     <configuration name="HospitalSystem: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/HospitalSystem/HospitalSystem.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -97,6 +110,7 @@
       <updated>1729750486124</updated>
       <workItem from="1729750488390" duration="710000" />
       <workItem from="1729765030084" duration="8000" />
+      <workItem from="1730134573637" duration="63000" />
     </task>
     <servers />
   </component>
@@ -117,7 +131,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="new repo" />
     <option name="LAST_COMMIT_MESSAGE" value="new repo" />

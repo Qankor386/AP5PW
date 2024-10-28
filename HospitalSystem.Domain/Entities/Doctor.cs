@@ -1,16 +1,17 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HospitalSystem.Domain.Entities
 {
     public class Doctor : Entity<int>
     {
         [Required]
-        public string Specialization { get; set; }
+        public required string Specialization { get; set; }
 
         public int YearsOfExperience { get; set; }
 
-        [ForeignKey("Person")]
+        [ForeignKey(nameof(Person))]
         public int PersonId { get; set; }
-        public Person Person { get; set; }
+        public required Person Person { get; set; }
     }
 }
