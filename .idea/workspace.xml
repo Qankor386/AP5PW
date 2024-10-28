@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0494429f-62e1-4765-a968-16eea9992671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Doctor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/HealthActions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Patient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Registration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Result.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HospitalSystem.Domain/Entities/UserAccount.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0494429f-62e1-4765-a968-16eea9992671" name="Changes" comment="Completing Entities" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +26,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Atributy/Atributy/Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -88,7 +78,7 @@
       <updated>1729753174401</updated>
       <workItem from="1729753174857" duration="1614000" />
       <workItem from="1729764092333" duration="1874000" />
-      <workItem from="1730127797198" duration="1358000" />
+      <workItem from="1730127797198" duration="1660000" />
     </task>
     <task id="LOCAL-00001" summary="created libraries">
       <option name="closed" value="true" />
@@ -122,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729765389169</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completing Entities">
+      <option name="closed" value="true" />
+      <created>1730129441188</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730129441189</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +133,7 @@
     <MESSAGE value="created libraries" />
     <MESSAGE value="create entities into domain" />
     <MESSAGE value="updated dotnet 7.0 -&gt; 8.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated dotnet 7.0 -&gt; 8.0" />
+    <MESSAGE value="Completing Entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completing Entities" />
   </component>
 </project>
