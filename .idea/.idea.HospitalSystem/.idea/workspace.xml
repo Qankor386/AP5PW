@@ -8,17 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3b65ffd-7cac-4ea5-9957-bab978fdeeb1" name="Changes" comment="new repo">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HospitalSystem/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HospitalSystem/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.HospitalSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HospitalSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem.Infrastructure/Database/HospitalSystemDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem/.config/dotnet-tools.json" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem/.config/dotnet-tools.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalSystem/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalSystem/appsettings.json" afterDir="false" />
-    </list>
+    <list default="true" id="c3b65ffd-7cac-4ea5-9957-bab978fdeeb1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +29,9 @@
     &quot;accountId&quot;: &quot;f4489c3a-8867-464b-93ba-975680326d00&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/HospitalSystem.Infrastructure/Migrations/20241029083433_InitialCreate.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -106,8 +99,25 @@
       <workItem from="1729750488390" duration="710000" />
       <workItem from="1729765030084" duration="8000" />
       <workItem from="1730134573637" duration="63000" />
-      <workItem from="1730189056649" duration="906000" />
+      <workItem from="1730189056649" duration="1955000" />
     </task>
+    <task id="LOCAL-00001" summary="creatin migrations">
+      <option name="closed" value="true" />
+      <created>1730190890929</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730190890929</updated>
+    </task>
+    <task id="LOCAL-00002" summary="migrations">
+      <option name="closed" value="true" />
+      <created>1730190948742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730190948742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +139,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="new repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="new repo" />
+    <MESSAGE value="creatin migrations" />
+    <MESSAGE value="migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrations" />
   </component>
 </project>
