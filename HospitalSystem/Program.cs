@@ -1,14 +1,20 @@
 using Microsoft.EntityFrameworkCore;
 using HospitalSystem.Infrastructure.Database;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-string connectionString = builder.Configuration.GetConnectionString("MySQL");
-ServerVersion serverVersion = new MySqlServerVersion("8.0.38");
-builder.Services.AddDbContext<HospitalSystemDbContext>(optionsBuilder => optionsBuilder.UseMySql(connectionString, serverVersion));
+// string connectionString = builder.Configuration.GetConnectionString("MySQL");
+// ServerVersion serverVersion = new MySqlServerVersion("8.0.38");
+// builder.Services.AddDbContext<HospitalSystemDbContext>(optionsBuilder => optionsBuilder.UseMySql(connectionString, serverVersion));
+builder.Services.AddDbContext<HospitalSystemDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("MySQL"),
+        new MySqlServerVersion("8.0.28"),
+        mySqlOptions => mySqlOptions.MigrationsAssembly("HospitalSystem")));
 
 var app = builder.Build();
 
